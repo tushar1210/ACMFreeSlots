@@ -13,6 +13,8 @@
 		7824AEF02132C3500037320A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7824AEEE2132C3500037320A /* Main.storyboard */; };
 		7824AEF22132C3520037320A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7824AEF12132C3520037320A /* Assets.xcassets */; };
 		7824AEF52132C3520037320A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7824AEF32132C3520037320A /* LaunchScreen.storyboard */; };
+		78A2D97621345E570059C4B1 /* userModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A2D97521345E570059C4B1 /* userModel.swift */; };
+		78B01489213402430051F418 /* MemberUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B01488213402430051F418 /* MemberUploadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		7824AEF12132C3520037320A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7824AEF42132C3520037320A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7824AEF62132C3520037320A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78A2D97521345E570059C4B1 /* userModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userModel.swift; sourceTree = "<group>"; };
+		78B01488213402430051F418 /* MemberUploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberUploadViewController.swift; sourceTree = "<group>"; };
 		850F0FA14A4BE961977FD212 /* Pods-FreeSlots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeSlots.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreeSlots/Pods-FreeSlots.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,9 +76,11 @@
 				7824AEEA2132C3500037320A /* AppDelegate.swift */,
 				7824AEEC2132C3500037320A /* LandingPage.swift */,
 				7824AEEE2132C3500037320A /* Main.storyboard */,
+				78B01488213402430051F418 /* MemberUploadViewController.swift */,
 				7824AEF12132C3520037320A /* Assets.xcassets */,
 				7824AEF32132C3520037320A /* LaunchScreen.storyboard */,
 				7824AEF62132C3520037320A /* Info.plist */,
+				78A2D97521345E570059C4B1 /* userModel.swift */,
 			);
 			path = FreeSlots;
 			sourceTree = "<group>";
@@ -206,6 +212,8 @@
 			files = (
 				7824AEED2132C3500037320A /* LandingPage.swift in Sources */,
 				7824AEEB2132C3500037320A /* AppDelegate.swift in Sources */,
+				78A2D97621345E570059C4B1 /* userModel.swift in Sources */,
+				78B01489213402430051F418 /* MemberUploadViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -26,9 +26,9 @@ class LandingPage: UIViewController{
         if let swipeGesture = gesture as? UISwipeGestureRecognizer {
             switch swipeGesture.direction {
                 
-            case UISwipeGestureRecognizerDirection.down:
-                swipeUp()
             case UISwipeGestureRecognizerDirection.up:
+                swipeUp()
+            case UISwipeGestureRecognizerDirection.down:
                 swipeDown()
             default:
                 break
@@ -40,6 +40,7 @@ class LandingPage: UIViewController{
     
     func swipeUp(){
          print("Swiped up")
+        performSegue(withIdentifier: "MemberUploadViewController", sender: self)
     }
     
     
